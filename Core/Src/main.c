@@ -172,9 +172,8 @@ int main(void)
 	  	  case QUICK_BLINKING:
 	  		   Quick_Blinking(counter);
 	  		 break;
-
 	  	  }
-
+//comment
 	  	  counter++;
 	  	  Button_Last_State = Button_Current_State;
 	  	  HAL_Delay(50);
